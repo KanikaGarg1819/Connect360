@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect360</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #0047ab;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .auth-buttons button {
+      margin-left: 10px;
+      padding: 8px 16px;
+      border: 2px solid white;
+      border-radius: 8px;
+      background-color: white;
+      color: #0047ab;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .auth-buttons button:hover {
+      background-color: #e6f0ff;
+    }
+
+    .hero {
+      background-color: #0047ab;
+      color: white;
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .subheading {
+      background-color: #e5ecf2;
+      text-align: center;
+      padding: 25px;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .features div {
+      width: 30%;
+    }
+
+    .features i {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .features strong {
+      font-size: 1.1rem;
+    }
+
+    .info-boxes {
+      display: flex;
+      justify-content: space-around;
+      margin: 30px auto;
+      max-width: 1100px;
+      padding: 0 20px;
+    }
+
+    .info-box {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      flex: 1;
+      margin: 10px;
+    }
+
+    .info-box i {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .register {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .register-box {
+      display: inline-block;
+      padding: 12px 24px;
+      border: 2px solid #f7941e;
+      border-radius: 20px;
+      color: #f7941e;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .msme_marker{
+        text-align: center;
+        color: black;
+        font-size: 10px;
+    }
+
+    .register-box:hover {
+      background-color: #f7941e;
+      color: white;
+    }
+  </style>
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Lend</a>
+       <a href="#">Discover</a>
+        <a href="#">Help</a>
+    </nav>
+    <div class="auth-buttons">
+      <button>Login</button>
+      <button>Sign Up</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Connect360</h1>
+  </section>
+
+  <section class="subheading">
+    Empowering Local Businesses with Access to Credit and Growth Opportunities
+  </section>
+
+  <section class="features">
+    <div>
+      <i class="fas fa-search"></i>
+      <strong>🔍 Discover</strong>
+      <p>small businesses and govt schemes</p>
+    </div>
+    <div>
+      <i class="fas fa-handshake"></i>
+      <strong>🤝 Lend</strong>
+      <p>securely through our verified platform</p>
+    </div>
+    <div>
+      <i class="fas fa-info-circle"></i>
+      <strong>ℹ️ Help</strong>
+      <p>Find skilled labours. MNC's corner</p>
+    </div>
+  </section>
+
+  <section class="info-boxes">
+    <div class="info-box">
+      <i class="fas fa-book"></i>
+      <strong>📊 Financial literacy and business</strong>
+    </div>
+    <div class="info-box">
+      <i class="fas fa-file-alt"></i>
+      <strong>📄 Documentation needed for loans</strong>
+    </div>
+    <div class="info-box">
+      <i class="fas fa-question-circle"></i>
+      <strong>❓ Understanding interest rates</strong>
+    </div>
+  </section>
+
+  <div class="register">
+    <div class="register-box">Register Now</div>
+    <div class ="msme_marker">*For MSME</div>
+    
+  </div>
+
+</body>
+</html>
