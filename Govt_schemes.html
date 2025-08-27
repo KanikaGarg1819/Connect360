@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Government Schemes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+        align-items: center;
+      background-color: #e2e6ea;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .container h2 {
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    select {
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      width: 160px;
+    }
+
+    button {
+      padding: 10px 30px;
+      background-color: #2d65c3;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #1c4ba0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Search Government Schemes</h1>
+
+  <select id="businessType">
+    <option disabled selected>Business Type</option>
+    <option>MSME</option>
+    <option>Startup</option>
+    <option>Enterprise</option>
+  </select>
+
+  <select id="state">
+    <option disabled selected>State</option>
+    <option>Delhi</option>
+    <option>Uttar Pradesh</option>
+    <option>Maharashtra</option>
+    <!-- Add more states as needed -->
+  </select>
+
+  <select id="sector">
+    <option disabled selected>Sector</option>
+    <option>Manufacturing</option>
+    <option>Retail</option>
+    <option>Technology</option>
+  </select>
+
+  <br>
+  <button onclick="searchSchemes()">Search</button>
+</div>
+
+<script>
+  function searchSchemes() {
+    const business = document.getElementById('businessType').value;
+    const state = document.getElementById('state').value;
+    const sector = document.getElementById('sector').value;
+
+    alert(`Searching for:\nBusiness Type: ${business}\nState: ${state}\nSector: ${sector}`);
+    // Replace alert with real search logic or API call
+  }
+</script>
+
+</body>
+</html>
