@@ -32,7 +32,7 @@ export default function Connect360() {
           <a href="#">Home</a>
           <Link to="/Lender">Lend</Link>
            <Link to="/Discover">Discover</Link>
-          <a href="#">Help</a>
+          <Link to="/Labour"></Link>
         </nav>
         <div className="auth-buttons">
           <button className="bg-black">Login</button>
