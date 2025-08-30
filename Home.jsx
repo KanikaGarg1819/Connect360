@@ -4,6 +4,7 @@ import "./Home.css"; // external CSS file
 import Home from "./Home";
 import Lender from "./Lender";
 import Discover from "./Discover";
+import Help from "./Labour";
 function FeatureCard({ icon, title, text }) {
   return (
     <div className="feature-card">
