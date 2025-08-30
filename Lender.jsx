@@ -2,11 +2,35 @@ import React, { useState } from "react";
 import "./Lender.css";
 const businessesData = [
   {
-    name: "General Store",
+    name: "Madhu - General Store",
     location: "Chandni Chowk",
-    amount: 600000,
+    amount: 20000,
     progress: 60,
     industry: "Retail",
+    impact: [],
+  },
+  {
+    name: "Arunima - Libas palace",
+    location: "Gurugram",
+    amount: 200000,
+    progress: 40,
+    industry: "Garments ",
+    impact: [],
+  },
+  {
+    name: "Nitin - Boutique",
+    location: "South Delhi",
+    amount: 50000,
+    progress: 25,
+    industry: "Services",
+    impact: ["Womervied"],
+  },
+  {
+    name: "Jetha - Gada Electronics",
+    location: "South Delhi",
+    amount: 100000,
+    progress: 80,
+    industry: "",
     impact: [],
   },
   {
@@ -18,19 +42,19 @@ const businessesData = [
     impact: [],
   },
   {
-    name: "Tailoring Shop",
-    location: "South Delhi",
-    amount: 250000,
-    progress: 25,
-    industry: "Services",
-    impact: ["Womervied"],
+    name: "Workshop",
+    location: "Noida",
+    amount: 400000,
+    progress: 40,
+    industry: "Service",
+    impact: [],
   },
   {
-    name: "Electronics Store",
-    location: "South Delhi",
-    amount: 800000,
-    progress: 80,
-    industry: "Manufacturing",
+    name: "Chanderlok Dabha",
+    location: "Dwarka",
+    amount: 250000,
+    progress: 40,
+    industry: "Food",
     impact: [],
   },
 ];
@@ -155,4 +179,5 @@ function Lender() {
     </div>
   );
 }
+
 export default Lender;
