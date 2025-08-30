@@ -15,16 +15,34 @@ const data = [
     type: "Student",
   },
   {
-    name: "Tata Consultancy Services",
-    detail1: "Company Type",
-    detail2: "IT & Services",
+    name: "Kanika Garg",
+    detail1: "Delhi Technological University",
+    detail2: "Production Technology",
     type: "Company",
   },
   {
-    name: "Reliance Industries",
-    detail1: "Company Type",
-    detail2: "Energy, Petrochemicals, Telecom",
-    type: "Company",
+    name: "Ritika Saini",
+    detail1: "Netaji Subash University of Technology",
+    detail2: "Bio-Technology",
+    type: "Student",
+  },
+   {
+    name: "Divyanshu Arya",
+    detail1: "Vivekananda Institute of Professional Studies",
+    detail2: "Chemical Technology",
+    type: "Student",
+  },
+   {
+    name: "Pooja Kumari",
+    detail1: "Shiv Nadar University",
+    detail2: "Petroleum Technology",
+    type: "Student",
+  },
+   {
+    name: "Kavya Maheshwari",
+    detail1: "University School of Automation & Robotics",
+    detail2: "Automation & Robotics",
+    type: "Student",
   },
 ];
 
